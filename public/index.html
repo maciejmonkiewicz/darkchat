@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://kit.fontawesome.com/a979934622.js" crossorigin="anonymous"></script>
+		<title>DarkChat @madeby: hunchos</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><i class="fas fa-book-dead"></i> DarkChat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Nick</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Wprowadź nick..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Pokój</label>
+						<select name="room" id="room">
+							<option value="pokoj1">Pokój 1</option>
+							<option value="pokoj2">Pokój 2</option>
+							<option value="pokoj3">Pokój 3</option>
+							<option value="pokoj4">Pokój 4</option>
+							<option value="pokoj5">Pokój 5</option>
+							<option value="pokoj6">Pokój 6</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Dołącz do pokoju</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
